@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-image: url(../images/rick-proctor-green-leaves-unsplash.jpg) !important;
+    background-size: cover;
+    background-repeat: no-repeat !important;
+    background-position: top !important;
+    height: 100% !important;   
+}
+
+body {
+    margin: 0;
+    display: flex;
+    text-align:center;
+    align-items: center;
+    justify-content: center
+}
+
+.field {
+    background-color: black;
+    width: 400px;
+    padding: 2%;
+    margin: 3%;
+    margin-top: 15%;
+}
+
+h1,
+#terms,
+.grouped,
+.checkbox {
+    padding: 3%;
+    color: white;
+}
+
+.control {
+    box-sizing: border-box;
+    clear: both;
+    font-size: 1rem;
+    position: relative;
+    text-align: inherit;
+}
+
+.label {
+    padding-top: 1%;
+    color: white;
+}
+
+.button.is-link {
+    padding: 2%;
+    margin: 2%;
+}
+
+.button.is-link a {
+    color: white;
+}
