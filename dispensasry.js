@@ -14,11 +14,11 @@ $(document).ready(function(){
 
 
 function runThePage() {
-	name = document.getElementById('info goes here').value
-	settings.url = "https://brianiswu-otreeba-open-cannabis-v1.p.rapidapi.com/" + name;
+	settings.url = "https://brianiswu-otreeba-open-cannabis-v1.p.rapidapi.com/" + name + "brands";
 	$.ajax(settings).done(function (response) {
 		name(response)
-		console.log(response, "connected to API")
+		console.log(response)
+		console.log("connected to API")
 	});
 	
 }
