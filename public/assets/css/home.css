@@ -5,7 +5,7 @@
 }
 
 html {
-    background-color: white;
+    background-color: black;
     height: 100% !important;    
 }
 
@@ -16,7 +16,7 @@ body {
 /* navbar */
 .navbar {
     max-width: 100%;
-    background-color: white;
+    background-color: black;
     padding: 1%;
 }
 
@@ -25,7 +25,7 @@ strong {
 }
 
 .navbar a {
-    color: black;
+    color: white;
 }
 
 /* cover */
@@ -47,7 +47,7 @@ strong {
 /* Discover */
 #discover,
 #blog {
-    color: black;
+    color: white;
     font-size: 40px;
     padding: 5%;
 }
