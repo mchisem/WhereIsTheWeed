@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: white;
+    height: 100% !important;    
+}
+
+body {
+    text-align: center;
+}
+
+/* navbar */
+.navbar {
+    max-width: 100%;
+    background-color: white;
+    padding: 1%;
+}
+
+strong {
+    font-size: 30px;
+}
+
+.navbar a {
+    color: black;
+}
+
+/* cover */
+.hero.is-primary.is-medium {
+    margin-top: 1%;
+    height: 70vh;
+    max-width: 100%;
+    background-image: url(../images/pexels-washarapol-d-binyo-jundang-2731667.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+.box {
+    border-radius: 0%;
+}
+
+/* Discover */
+#discover,
+#blog {
+    color: black;
+    font-size: 40px;
+    padding: 5%;
+}
+
+.tile.is-ancestor {
+    max-width: 100%;
+    text-align: center;
+    padding: 4%;
+    padding-bottom: 0%;
+}
+
+.title {
+    text-align: center;  
+    color: white;
+}
+
+#about,
+#benefits {
+    padding: 10%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;    
+    color: white;
+}
+
+#about {
+    background-image: url(../images/team-natalie-pedigo-unsplash.jpg);
+}
+
+#benefits {
+    background-image: url(../images/grav-v_U8vO8iFyY-unsplash.jpg);
+}
+
+.columns.is-variable.is-1-mobile.is-0-tablet.is-3-desktop.is-8-widescreen.is-2-fullhd {
+    padding: 5%;
+    padding-top: 0%;
+}
+
+.card {
+    border-radius: 0%;
+}

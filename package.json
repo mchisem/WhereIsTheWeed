@@ -1,0 +1,27 @@
+{
+  "name": "whereistheweed",
+  "version": "1.0.0",
+  "description": "A dispensary locater for those in need.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mchisem/WhereIsTheWeed.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mchisem/WhereIsTheWeed/issues"
+  },
+  "homepage": "https://github.com/mchisem/WhereIsTheWeed#readme",
+  "dependencies": {
+    "bulma": "^0.9.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  }
+}

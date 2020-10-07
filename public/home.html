@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+ 
+    <!-- Bulma Stylesheet -->
+    <link rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+
+    <!-- Font Awesome Stylesheet-->
+    <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+
+    <!-- MDB Bootstrap Stylesheet -->
+    <link rel="stylesheet" 
+    href="node_modules/mdbootstrap/css/bootstrap.min.css">
+
+    <!-- Stylesheet -->
+    <link rel="Stylesheet" type="text/css" 
+    href="./assets/css/home.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="./home.html">
+            <strong>Where is the Weed?</strong>
+          </a>
+      
+          <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">      
+            <!-- <a class="navbar-item">
+              Documentation
+            </a> -->
+          </div>
+      
+          <div class="navbar-end">
+            <div class="navbar-item">    
+                <i class="fa fa-map-marker-alt"></i>
+                         
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        <p> Current Location: <span>Los Angeles, CA</span></p>
+                    </a>
+      
+              <div class="navbar-dropdown">
+                <a class="navbar-item">
+                  Enter a new location
+                </a>
+                <hr class="navbar-divider">
+                <a class="navbar-item">
+                  Report an issue
+                </a>
+              </div>
+            </div>
+              <div class="buttons">
+                <a class="button is-primary">
+                  <!-- <strong>Sign up</strong> -->
+                  <i class="fa fa-blog"></i>
+                </a>
+                <a class="button is-light">
+                    <i class="fa fa-user-circle"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Cover -->
+      <section class="hero is-primary is-medium">
+        <div class="hero-body">
+          <div class="container">
+            <h1 class="title">
+              Medium title
+            </h1>
+            <h2 class="subtitle">
+              The app that's there for you when you
+              need it
+            </h2>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Discover -->
+      <h1 id="discover">Discover</h1>
+
+      <div class="tile is-ancestor">
+        <div class="tile is-parent">
+          <div class="tile is-child box" id="about">
+            <p class="title">About</p>
+            <small>Get to know the creators of your favorite weed app</small><br>
+            <a href="./about.html">Read More</a>
+          </div>
+        </div>
+        <div class="tile is-4 is-vertical is-parent">
+            <div class="tile is-child box" id="benefits">
+              <p class="title">Benefits</p>
+              <small>Learn about the positives of cannabis</small><br>
+              <a href="./benefits.html">Read More</a>
+            </div>
+          </div>
+      </div>
+
+      <!-- Blog -->
+      <h1 id="blog">Blog</h1>
+
+      <div class="columns is-variable is-1-mobile is-0-tablet is-3-desktop is-8-widescreen is-2-fullhd">
+        <div class="column">
+          <!-- Card Light -->
+<div class="card">
+
+    <!-- Card image -->
+    <div class="view overlay">
+      <img class="card-img-top"
+        src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%28131%29.jpg" alt="Card image cap">
+      <a>
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+  
+    <!-- Card content -->
+    <div class="card-body">
+  
+      <!-- Social shares button -->
+      <a class="activator waves-effect waves-light mr-4"><i class="fas fa-share-alt"></i></a>
+      <!-- Title -->
+      <h4 class="card-title">Card title</h4>
+      <hr>
+      <!-- Text -->
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+        content.</p>
+      <!-- Link -->
+      <a href="#!" class="black-text d-flex justify-content-end">
+        <h5>Read more <i class="fas fa-angle-double-right"></i></h5>
+      </a>
+  
+    </div>
+  
+  </div>
+  <!-- Card Light -->
+        </div>
+        <div class="column">
+            <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left">
+                      <figure class="image is-48x48">
+                        <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                      </figure>
+                    </div>
+                    <div class="media-content">
+                      <p class="title is-4">John Smith</p>
+                      <p class="subtitle is-6">@johnsmith</p>
+                    </div>
+                  </div>
+              
+                  <div class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                    <a href="#">#css</a> <a href="#">#responsive</a>
+                    <br>
+                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left">
+                      <figure class="image is-48x48">
+                        <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                      </figure>
+                    </div>
+                    <div class="media-content">
+                      <p class="title is-4">John Smith</p>
+                      <p class="subtitle is-6">@johnsmith</p>
+                    </div>
+                  </div>
+              
+                  <div class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                    <a href="#">#css</a> <a href="#">#responsive</a>
+                    <br>
+                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                  </div>
+                </div>
+              </div>
+      </div>
+
+<!--jQuery CDN  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- js -->
+<!-- <script src="./assets/js/home.js"></script> -->
+</body>
+</html>

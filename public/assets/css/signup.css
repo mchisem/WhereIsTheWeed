@@ -1,0 +1,10 @@
+.label {
+    padding-top: 1%;
+    color: white;
+}
+
+#terms span:hover {
+    opacity: 1;
+    color: white;
+    cursor: auto;
+}
