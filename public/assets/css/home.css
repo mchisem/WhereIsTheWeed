@@ -6,7 +6,7 @@
 }
 
 html {
-    background-color: black;
+    background-color: white;
     height: 100% !important;    
 }
 
@@ -19,7 +19,7 @@ body {
 /************************************/
 .navbar {
     max-width: 100%;
-    background-color: black;
+    background-color: white;
     padding: 1%;
 }
 
@@ -28,11 +28,11 @@ strong {
 }
 
 .navbar a {
-    color: white;
+    color: black;
 }
 
 .navbar-dropdown {
-    background-color: black;
+    background-color: white;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
     border-top: 2px solid #dbdbdb;
@@ -69,7 +69,7 @@ strong {
 /************************************/
 #discover,
 #blog {
-    color: white;
+    color: black;
     font-size: 40px;
     padding: 5%;
 }
