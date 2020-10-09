@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+ 
+    <!-- Bulma Stylesheet -->
+    <link rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+
+    <!-- Font Awesome Stylesheet-->
+    <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+
+    <!-- MDB Bootstrap Stylesheet -->
+    <link rel="stylesheet" 
+    href="node_modules/mdbootstrap/css/bootstrap.min.css">
+
+    <!-- Stylesheet -->
+    <link rel="Stylesheet" type="text/css" 
+    href="./assets/css/home.css">
+</head>
+<body>
+    <!------------------------------->
+    <!-- Navbar -->
+    <!------------------------------->
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="./home.html">
+            <strong>Where's the Weed?</strong>
+          </a>
+      
+          <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">      
+            <!-- <a class="navbar-item">
+              Documentation
+            </a> -->
+          </div>
+      
+          <div class="navbar-end">
+            <div class="navbar-item">    
+                <i class="fa fa-map-marker-alt"></i>
+                         
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        <p> Current Location: <span>Los Angeles, CA</span></p>
+                    </a>
+      
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item">
+                            Enter a new location
+                        </a>
+                        <hr class="navbar-divider">
+                        <a class="navbar-item">
+                            Report an issue
+                        </a>
+                    </div>
+                </div>
+
+              <div class="buttons">
+                <a href="#blog" class="button is-primary">
+                  <i class="fa fa-blog"></i>
+                </a>
+
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="button is-light">
+                        <i class="fa fa-user-circle"></i>
+                    </a>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item">
+                            Account
+                        </a>
+                        <hr class="navbar-divider">
+                        <a class="navbar-item">
+                            Sign Out
+                        </a>
+                    </div>
+                </div>
+
+                <!-- <a class="button is-light">
+                    <i class="fa fa-user-circle"></i>
+                </a> -->
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    <!------------------------------->
+    <!-- Cover -->
+    <!------------------------------->
+    <section class="hero is-primary is-medium">
+    <div class="hero-body">
+        <div class="container">
+        <h1 class="title">
+            Where's the Weed?
+        </h1>
+        <h2 class="subtitle">
+            The app that's there for you when you
+            need it
+        </h2>
+        </div>
+    </div>
+    </section>
+      
+    <!------------------------------->
+    <!-- Discover Section -->
+    <!------------------------------->
+    <h1 id="discover">Discover</h1>
+
+    <div class="tile is-ancestor">
+    <div class="tile is-parent">
+        <div class="tile is-child box" id="about">
+        <p class="title">About</p>
+        <small>Get to know the creators of your favorite weed app</small><br>
+        <a href="./about.html">Read more
+            <i class="fas fa-angle-double-right"></i>
+        </a>
+        </div>
+    </div>
+    <div class="tile is-4 is-vertical is-parent">
+        <div class="tile is-child box" id="benefits">
+            <p class="title">Benefits</p>
+            <small>Learn about the positives of cannabis</small><br>
+            <a href="./benefits.html">Read more
+                <i class="fas fa-angle-double-right"></i>
+            </a>
+        </div>
+        </div>
+    </div>
+
+    <!------------------------------->
+    <!-- Blog Section -->
+    <!------------------------------->
+    <h1 id="blog">Blog</h1>
+
+    <!-- Row One -->
+    <div class="columns is-variable is-1-mobile is-0-tablet is-3-desktop is-8-widescreen is-2-fullhd">
+    <div class="column">
+        <!-- Card Light -->
+        <div class="card">
+            <!-- Card image -->
+                <div class="view overlay">
+                    <img class="card-img-top"
+                    src="https://theweedblog-com.exactdn.com/wp-content/uploads/Canva-Person-Holding-Green-Canabis-scaled.jpg?strip=all&lossy=1&resize=1440%2C600&ssl=1" alt="Card image cap">
+                    <a>
+                        <div class="mask rgba-white-slight"></div>
+                    </a>
+                </div>
+            <!-- Card content -->
+                <div class="card-body">
+                    <!-- Social shares button -->
+                        <a class="activator waves-effect waves-light mr-4">
+                            <i class="fas fa-bookmark"></i>                        
+                        </a>
+                        <a class="activator waves-effect waves-light mr-4">
+                            <i class="fas fa-share-alt"></i>
+                        </a>
+            <!-- Title -->
+                <h4 class="card-title">
+                    Federal Legalization Of Cannabis To Stimulate The Economy
+                </h4>
+                <hr>
+            <!-- Text -->
+                <p class="card-text">
+                    The nation is in the midst of the largest public health crises in nearly a 
+                    century, with the novel strain of the Coronavirus, COVID-19, taking
+                </p>
+            <!-- Link -->
+                <a href="https://theweedblog.com/policy/federal-legalization-cannabis-stimulate-economy" class="black-text d-flex justify-content-end">
+                    <h5>Read more 
+                        <i class="fas fa-angle-double-right"></i>
+                    </h5>
+                </a>
+        </div>
+    </div>
+    </div>
+    <div class="column">
+        <!-- Card Light -->
+        <div class="card">
+            <!-- Card image -->
+                <div class="view overlay">
+                    <img class="card-img-top"
+                    src="https://theweedblog-com.exactdn.com/wp-content/uploads/claire-anderson-Vq__yk6faOI-unsplash-scaled.jpg?strip=all&lossy=1&resize=1440%2C600&ssl=1" alt="Card image cap">
+                    <a>
+                        <div class="mask rgba-white-slight"></div>
+                    </a>
+                </div>
+            <!-- Card content -->
+                <div class="card-body">
+                    <!-- Social shares button -->
+                    <a class="activator waves-effect waves-light mr-4">
+                        <i class="fas fa-bookmark"></i>                        
+                    </a>
+                    <a class="activator waves-effect waves-light mr-4">
+                        <i class="fas fa-share-alt"></i>
+                    </a>
+            <!-- Title -->
+                <h4 class="card-title">
+                    Federal Cannabis Lawsuit Appeal Receives Unprecedented Support
+                </h4>
+                <hr>
+            <!-- Text -->
+                <p class="card-text">
+                    The plaintiffs in a landmark lawsuit seeking to declare the federal law that criminalizes marijuana 
+                    unconstitutional have received an enormous boost. A total of nine
+                </p>
+            <!-- Link -->
+                <a href="https://theweedblog.com/advocacy/federal-cannabis-lawsuit-appeal-unprecedented-support" class="black-text d-flex justify-content-end">
+                    <h5>
+                        Read more 
+                        <i class="fas fa-angle-double-right"></i>
+                    </h5>
+                </a>
+        </div>
+    </div>
+    </div>
+    <div class="column">
+        <!-- Card Light -->
+        <div class="card">
+            <!-- Card image -->
+                <div class="view overlay">
+                    <img class="card-img-top"
+                    src="https://theweedblog-com.exactdn.com/wp-content/uploads/cannabis-2152604_1920-1.jpg?strip=all&lossy=1&resize=1440%2C600&ssl=1" alt="Card image cap">
+                    <a>
+                        <div class="mask rgba-white-slight"></div>
+                    </a>
+                </div>
+            <!-- Card content -->
+                <div class="card-body">
+                    <!-- Social shares button -->
+                    <a class="activator waves-effect waves-light mr-4">
+                        <i class="fas fa-bookmark"></i>                        
+                    </a>
+                    <a class="activator waves-effect waves-light mr-4">
+                        <i class="fas fa-share-alt"></i>
+                    </a>
+            <!-- Title -->
+                <h4 class="card-title">
+                    What Your Favorite Marijuana Strain Says About You
+                </h4>
+                <hr>
+            <!-- Text -->
+                <p class="card-text">
+                    If you really want to know someone, there 
+                    are a few key questions you can ask to get to the root of their soul: What
+                </p>
+            <!-- Link -->
+                <a href="https://theweedblog.com/culture/what-your-favorite-marijuana-strain-says-about-you" class="black-text d-flex justify-content-end">
+                    <h5>Read more 
+                        <i class="fas fa-angle-double-right"></i>
+                    </h5>
+                </a>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <!------------------------------->
+    <!-- Row Two -->
+    <!------------------------------->
+    <div class="columns is-variable is-1-mobile is-0-tablet is-3-desktop is-8-widescreen is-2-fullhd">
+        <div class="column">
+            <!-- Card Light -->
+            <div class="card">
+                <!-- Card image -->
+                    <div class="view overlay">
+                        <img class="card-img-top"
+                        src="https://theweedblog-com.exactdn.com/wp-content/uploads/IMG_0391.jpeg?strip=all&lossy=1&resize=1440%2C600&ssl=1" alt="Card image cap">
+                        <a>
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+                <!-- Card content -->
+                    <div class="card-body">
+                        <!-- Social shares button -->
+                        <a class="activator waves-effect waves-light mr-4">
+                            <i class="fas fa-bookmark"></i>                        
+                        </a>
+                        <a class="activator waves-effect waves-light mr-4">
+                            <i class="fas fa-share-alt"></i>
+                        </a>
+                <!-- Title -->
+                    <h4 class="card-title">
+                        Cannabis Infused Banana Coconut Pancakes
+                    </h4>
+                    <hr>
+                <!-- Text -->
+                    <p class="card-text">
+                        Some meals are created from resources and necessities.  
+                        I grew up in a single parent home and my mom had to work several jobs to
+                    </p>
+                <!-- Link -->
+                    <a href="https://theweedblog.com/cooking/cannabis-infused-banana-coconut-pancakes" class="black-text d-flex justify-content-end">
+                        <h5>Read more 
+                            <i class="fas fa-angle-double-right"></i>
+                        </h5>
+                    </a>
+            </div>
+        </div>
+        </div>
+        <div class="column">
+            <!-- Card Light -->
+            <div class="card">
+                <!-- Card image -->
+                    <div class="view overlay">
+                        <img class="card-img-top"
+                        src="https://theweedblog-com.exactdn.com/wp-content/uploads/cbd-4474903_1920.jpg?strip=all&lossy=1&resize=1440%2C600&ssl=1" alt="Card image cap">
+                        <a>
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+                <!-- Card content -->
+                    <div class="card-body">
+                        <!-- Social shares button -->
+                        <a class="activator waves-effect waves-light mr-4">
+                            <i class="fas fa-bookmark"></i>                        
+                        </a>
+                        <a class="activator waves-effect waves-light mr-4">
+                            <i class="fas fa-share-alt"></i>
+                        </a>
+                <!-- Title -->
+                    <h4 class="card-title">
+                        THC Vs. CBD: A Short Guide
+                    </h4>
+                    <hr>
+                <!-- Text -->
+                    <p class="card-text">
+                        Last year, CBD sales in the U.S. were projected to grow by 706%. 
+                        A pretty steep mark to hit until you take a pause to
+                    </p>
+                <!-- Link -->
+                    <a href="https://theweedblog.com/science/thc-vs-cbd-a-short-guide" class="black-text d-flex justify-content-end">
+                        <h5>Read more 
+                            <i class="fas fa-angle-double-right"></i>
+                        </h5>
+                    </a>
+            </div>
+        </div>
+        </div>
+        <div class="column">
+            <!-- Card Light -->
+            <div class="card">
+                <!-- Card image -->
+                    <div class="view overlay">
+                        <img class="card-img-top"
+                        src="https://theweedblog-com.exactdn.com/wp-content/uploads/marcelo-leal-k7ll1hpdhFA-unsplash-scaled.jpg?strip=all&lossy=1&resize=1440%2C600&ssl=1" alt="Card image cap">
+                        <a>
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+                <!-- Card content -->
+                    <div class="card-body">
+                        <!-- Social shares button -->
+                        <a class="activator waves-effect waves-light mr-4">
+                            <i class="fas fa-bookmark"></i>                        
+                        </a>
+                        <a class="activator waves-effect waves-light mr-4">
+                            <i class="fas fa-share-alt"></i>
+                        </a>
+                <!-- Title -->
+                    <h4 class="card-title">
+                        Mental Illnesses and How They’re Affected by Weed
+                    </h4>
+                    <hr>
+                <!-- Text -->
+                    <p class="card-text">
+                        At this point, it’s hard to question the validity of weed’s 
+                        medical use. With 33 states acknowledging its medicinal applications and legalizing its use in
+                    </p>
+                <!-- Link -->
+                    <a href="https://theweedblog.com/medical/mental-illnesses-and-how-theyre-affected-by-weed" class="black-text d-flex justify-content-end">
+                        <h5>Read more 
+                            <i class="fas fa-angle-double-right"></i>
+                        </h5>
+                    </a>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<!-- js -->
+<!-- <script src="./assets/js/home.js"></script> -->
+</body>
+</html>
