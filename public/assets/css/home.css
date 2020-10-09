@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 html {
-    background-color: black;
+    background-color: white;
     height: 100% !important;    
 }
 
@@ -13,10 +14,12 @@ body {
     text-align: center;
 }
 
+/************************************/
 /* navbar */
+/************************************/
 .navbar {
     max-width: 100%;
-    background-color: black;
+    background-color: white;
     padding: 1%;
 }
 
@@ -25,10 +28,27 @@ strong {
 }
 
 .navbar a {
-    color: white;
+    color: black;
 }
 
+.navbar-dropdown {
+    background-color: white;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top: 2px solid #dbdbdb;
+    box-shadow: 0 8px 8px rgba(10,10,10,.1);
+    display: none;
+    font-size: .875rem;
+    left: 0;
+    min-width: 100%;
+    position: absolute;
+    top: 100%;
+    z-index: 20;
+}
+
+/************************************/
 /* cover */
+/************************************/
 .hero.is-primary.is-medium {
     margin-top: 1%;
     height: 70vh;
@@ -44,10 +64,12 @@ strong {
     border-radius: 0%;
 }
 
+/************************************/
 /* Discover */
+/************************************/
 #discover,
 #blog {
-    color: white;
+    color: black;
     font-size: 40px;
     padding: 5%;
 }
@@ -62,6 +84,7 @@ strong {
 .title {
     text-align: center;  
     color: white;
+    font-size: 40px;
 }
 
 #about,
@@ -72,6 +95,13 @@ strong {
     background-position: center;
     text-align: center;    
     color: white;
+}
+
+#about small,
+#benefits small,
+#about a,
+#benefits a {
+    font-size: 20px;
 }
 
 #about {
@@ -89,4 +119,17 @@ strong {
 
 .card {
     border-radius: 0%;
+    height: 60vh;
+}
+
+.card-img-top {
+    height: 26vh;
+}
+
+.card-text {
+    padding: 4%;
+}
+
+h5 {
+    padding-bottom: 4%;
 }
