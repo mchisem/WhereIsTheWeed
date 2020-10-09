@@ -26,17 +26,17 @@ function runThePage() {
 runThePage();
 
 // Appending Data error messages about name//
-	function product(response) {
-		for (var index = 0; index < response.length; index++) {
-			var userSearch = response.data[index].flowers.name
-			userSearch = $("<div>").addClass("displayUserSearch")
-			infoDiv.append(userSearch)
-			$("#info").append(infoDiv)
-		}
+	// function product(response) {
+	// 	for (var index = 0; index < response.length; index++) {
+	// 		var userSearch = response.data[index].flowers.name
+	// 		userSearch = $("<div>").addClass("displayUserSearch")
+	// 		infoDiv.append(userSearch)
+	// 		$("#info").append(infoDiv)
+	// 	}
 
-	}
+	// }
 
-product();
+// product();
 
 $.ajax(settings).done(function (response) {
 	console.log(response, "connected to API");
