@@ -25,6 +25,7 @@ body {
 
 strong {
     font-size: 30px;
+    text-emphasis: none;
 }
 
 .navbar a {
@@ -75,6 +76,7 @@ strong {
 }
 
 .tile.is-ancestor {
+    margin-left: 0;
     max-width: 100%;
     text-align: center;
     padding: 4%;
@@ -95,6 +97,19 @@ strong {
     background-position: center;
     text-align: center;    
     color: white;
+    transition: transform .5s ease;
+    border: 6px solid darkblue;
+}
+
+.tile.is-parent {
+    transition: transform .5s ease;
+    border: 6px solid palevioletred;
+
+}
+
+.tile.is-parent:hover {
+    transition: transform .5s ease;
+    transform: scale(1.5);
 }
 
 #about small,

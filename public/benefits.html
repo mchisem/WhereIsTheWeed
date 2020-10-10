@@ -24,13 +24,60 @@
     />
 
     <!-- Stylesheet -->
+
+    <link rel="Stylesheet" type="text/css" 
+    href="./assets/css/home.css">
+
+        <!-- Stylesheet -->
+        <link rel="Stylesheet" type="text/css" 
+        href="./assets/css/benefits.css">
+
+</head>
+<body>
+
     <link rel="Stylesheet" type="text/css" href="./assets/css/home.css" />
   </head>
   <body>
+
     <!------------------------------->
     <!-- Navbar -->
     <!------------------------------->
     <nav class="navbar" role="navigation" aria-label="main navigation">
+
+        <div class="navbar-brand">
+          <a class="navbar-item" href="./home.html">
+            <strong>Where's the Weed?</strong>
+          </a>
+      
+          <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">      
+          <div class="navbar-end">
+            <div class="navbar-item">    
+                <i class="fa fa-map-marker-alt"></i>
+                         
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        <p> Current Location: <span>Los Angeles, CA</span></p>
+                    </a>
+      
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item">
+                            Enter a new location
+                        </a>
+                        <hr class="navbar-divider">
+                        <a class="navbar-item">
+                            Report an issue
+                        </a>
+                    </div>
+                </div>
+
       <div class="navbar-brand">
         <a class="navbar-item" href="./home.html">
           <strong>Where's the Weed?</strong>
@@ -59,6 +106,7 @@
         <div class="navbar-end">
           <div class="navbar-item">
             <i class="fa fa-map-marker-alt"></i>
+
 
             <div class="navbar-item has-dropdown is-hoverable">
               <a class="navbar-link">
@@ -96,14 +144,96 @@
                 </div>
               </div>
 
+
               <!-- <a class="button is-light">
                     <i class="fa fa-user-circle"></i>
                 </a> -->
+
             </div>
           </div>
         </div>
       </div>
     </nav>
+
+
+    <!-- Card -->
+<div class="card card-cascade wider reverse">
+
+    <!-- Card image -->
+    <div class="view view-cascade overlay">
+      <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg"
+        alt="Card image cap">
+      <a href="#!">
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+  
+    <!-- Card content -->
+    <div class="card-body card-body-cascade text-center">
+  
+      <!-- Title -->
+      <h4 class="card-title"><strong>My adventure</strong></h4>
+      <!-- Subtitle -->
+      <h6 class="font-weight-bold indigo-text py-2">Photography</h6>
+      <!-- Text -->
+      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem perspiciatis
+        voluptatum a, quo nobis, non commodi quia repellendus sequi nulla voluptatem dicta reprehenderit, placeat
+        laborum ut beatae ullam suscipit veniam.
+      </p>
+  
+      <!-- Linkedin -->
+      <a class="px-2 fa-lg li-ic"><i class="fab fa-linkedin-in"></i></a>
+      <!-- Twitter -->
+      <a class="px-2 fa-lg tw-ic"><i class="fab fa-twitter"></i></a>
+      <!-- Dribbble -->
+      <a class="px-2 fa-lg fb-ic"><i class="fab fa-facebook-f"></i></a>
+  
+    </div>
+  
+  </div>
+
+
+<!-- Card -->
+<!-- Card Light -->
+<div class="card">
+
+    <!-- Card image -->
+    <div class="view overlay">
+      <img class="card-img-top" alt="Card image cap" id="one-img">
+      <a>
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+    <!-- Card content -->
+    <div class="card-body">
+  
+      <!-- Social shares button -->
+      <a class="activator waves-effect waves-light mr-4"><i class="fas fa-share-alt"></i></a>
+      <!-- Title -->
+      <h4 class="card-title" id="one-title"></h4>
+      <hr>
+      <!-- Text -->
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+        content.</p>
+      <!-- Link -->
+      <a href="#!" class="black-text d-flex justify-content-end">
+        <h5>Read more <i class="fas fa-angle-double-right"></i></h5>
+      </a>
+    </div>
+    </div>
+  <!-- Card Light -->
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<!-- js -->
+<script src="assets/js/dispensary.js"></script>
+</body>
+</html>
 
     <h1>Benefits</h1>
 
@@ -133,3 +263,4 @@
     <!-- js -->
   </body>
 </html>
+
