@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  background-color: white;
+  height: 100% !important;
+}
+
+p {
+  font-size: 18px;
+}
+
+a:hover {
+  color: green;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+li {
+  line-height: 3em;
+}
+
+/************************************/
+/* navbar */
+/************************************/
+.navbar {
+  max-width: 100%;
+  background-color: white;
+  padding: 1%;
+}
+
+strong {
+  font-size: 30px;
+}
+
+.navbar a {
+  color: black;
+}
+
+.navbar-dropdown {
+  background-color: white;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-top: 2px solid #dbdbdb;
+  box-shadow: 0 8px 8px rgba(10, 10, 10, 0.1);
+  display: none;
+  font-size: 0.875rem;
+  left: 0;
+  min-width: 100%;
+  position: absolute;
+  top: 100%;
+  z-index: 20;
+}
+
+/************************************/
+/*     MAIN CONTENT BEGINS*/
+/************************************/
+
+.container {
+  max-width: 960px;
+  padding-bottom: 3em;
+}
+
+.display-4 {
+  font-family: "Oswald", sans-serif;
+  color: rgb(26, 26, 26);
+  font-family: "Ruda", Sans-Serif;
+  font-size: 48px;
+}
+
+.benefits-title {
+  font-family: "Oswald", sans-serif;
+  color: rgb(26, 26, 26);
+  font-family: "Ruda", Sans-Serif;
+  font-size: 48px;
+}
+
+.subtitle {
+  font-family: "Roboto", Sans-Serif;
+  font-size: 25px;
+  padding-bottom: 0px;
+}
+
+/*              
+
+SIDE CONTENT
+
+*/
+.image {
+  height: 200px;
+  width: 380px;
+  padding: 0 10 10 10;
+}
+
+.card-title {
+  font-family: "Roboto", Sans-Serif;
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+/************************************/
+/*     MAIN CONTENT ENDS*/
+/************************************/
+
+/************************************/
+/*    FOOTER STYLING BEGINS */
+/************************************/
+
+.site-footer {
+  background-color: rgb(233, 233, 233);
+  padding-top: 20px;
+}
+
+#footer-dev {
+  padding-left: 3em;
+}
+
+.small-text {
+  font-size: 12px;
+}
+
+.copyright-text {
+  text-align: center;
+}
+
+/************************************/
+/*    FOOTER STYLING ENDS */
+/************************************/
