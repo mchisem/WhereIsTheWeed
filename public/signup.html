@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+
+    <!-- Bulma Stylesheet -->
+    <link rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    
+    <!-- Font Awesome Stylesheet-->
+    <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+
+    <!-- Stylesheet -->
+    <link rel="Stylesheet" type="text/css" 
+    href="./assets/css/style.css">
+
+    <!-- Stylesheet -->
+    <link rel="Stylesheet" type="text/css" 
+    href="./assets/css/signup.css">
+
+</head>
+<body>
+    <!------------------------------->
+    <!-- Sign Up -->
+    <!------------------------------->
+    <div class="field">
+        <h1>Sign Up</h1>
+        <label class="label">Name</label>
+        <div class="control">
+          <input id="name" class="input" type="text" placeholder="Name input">
+        </div>
+
+        <label class="label">Username</label>
+        <div class="control has-icons-left has-icons-right">
+          <input id="user-name" class="input" type="text" placeholder="Text input">
+          <!-- <input class="input is-success" type="text" placeholder="Text input" value="bulma"> -->
+          <span class="icon is-small is-left">
+            <i class="fas fa-user"></i>
+          </span>
+          <!-- <span class="icon is-small is-right">
+            <i class="fas fa-check"></i>
+          </span> -->
+        </div>
+        <!-- <p class="help is-success">This username is available</p> -->
+      
+        <label class="label">Email</label>
+        <div class="control has-icons-left has-icons-right">
+          <input id="email" class="input" type="email" placeholder="Email input">
+          <!-- <input class="input is-danger" type="email" placeholder="Email input" value="hello@"> -->
+          <span class="icon is-small is-left">
+            <i class="fas fa-envelope"></i>
+          </span>
+          <!-- <span class="icon is-small is-right">
+            <i class="fas fa-exclamation-triangle"></i>
+          </span> -->
+        </div>
+        <!-- <p class="help is-danger">This email is invalid</p> -->
+      
+        <div class="control" id="terms">
+          <label class="checkbox">
+            <input type="checkbox">
+            <span>I agree to the </span><a href="#">terms and conditions</a>
+          </label>
+      </div>
+      
+      <div class="grouped">
+        <div class="control">
+          <button id="sign-up" class="button is-link">Sign up</button>
+
+         <p>or <a href="./login.html">log in</a></p> 
+        </div>
+    </div>
+ 
+<!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Index Js -->
+<!-- <script src="/models/index.js"></script> -->
+<!-- User.js -->
+<!-- <script src="/models/user.js"></script> -->
+<!-- API Routes -->
+<!-- <script src="/routes/api-routes.js"></script> -->
+<!-- js -->
+<script src="./assets/js/signup.js"></script>
+</body>
+</html>
