@@ -18,27 +18,17 @@
   },
   "homepage": "https://github.com/mchisem/WhereIsTheWeed#readme",
   "dependencies": {
-<<<<<<< HEAD
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "express-session": "^1.17.1",
-=======
     "bcryptjs": "^2.4.3",
     "bulma": "^0.9.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-session": "^1.17.1",
     "mdbootstrap": "^4.19.1",
->>>>>>> 7f2ecedd342b408bd3056a20e1a3fda040939770
     "mysql": "^2.18.1",
     "mysql2": "^2.2.5",
     "passport": "^0.4.1",
     "passport-local": "^1.0.0",
-<<<<<<< HEAD
     "sequelize": "^6.3.5",
     "stack": "^0.1.0"
-=======
-    "sequelize": "^6.3.5"
->>>>>>> 7f2ecedd342b408bd3056a20e1a3fda040939770
   }
 }
