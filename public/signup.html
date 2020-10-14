@@ -17,56 +17,88 @@
     href="./assets/css/style.css">
 
     <!-- Stylesheet -->
-    <link rel="Stylesheet" type="text/css" 
-    href="./assets/css/signup.css">
+    <!-- <link rel="Stylesheet" type="text/css" 
+    href="./assets/css/signup.css"> -->
 
 </head>
 <body>
+
+    <!------------------------------->
+    <!-- Age Container -->
+    <!------------------------------->
+    <div id="of-age-form">
+      <h1>Are you at least 21 years old?</h1>
+      <br/>
+
+      <div class="control">
+        <button class="button is-link" id="confirmation">
+            Yes I'm at least 21
+        </button>
+      </div>
+      <div class="control">
+        <button class="button is-link is-light" id="no-access">
+          No I'm not 21 yet
+        </button>
+      </div>
+
+      <div class="control" id="terms">
+        <label class="checkbox">
+          <input type="checkbox" />
+          Save my information
+        </label>
+      </div>
+    </div>
+
     <!------------------------------->
     <!-- Sign Up -->
     <!------------------------------->
-    <div class="field">
+    <div class="hide" id="sign-up-form">
         <h1>Sign Up</h1>
-        <label class="label">Name</label>
+        <!-- <label class="label">Name</label> -->
         <div class="control">
           <input id="name" class="input" type="text" placeholder="Name input">
         </div>
+        <br>
 
-        <label class="label">Username</label>
+        <!-- <label class="label">Username</label> -->
         <div class="control has-icons-left has-icons-right">
-          <input id="user-name" class="input" type="text" placeholder="Text input">
-          <!-- <input class="input is-success" type="text" placeholder="Text input" value="bulma"> -->
+          <input id="user-name" class="input" type="text" placeholder="Username input">
           <span class="icon is-small is-left">
             <i class="fas fa-user"></i>
           </span>
-          <!-- <span class="icon is-small is-right">
-            <i class="fas fa-check"></i>
-          </span> -->
         </div>
+        <br>
+      
+        <!-- <label class="label">Email</label> -->
         <!-- <p class="help is-success">This username is available</p> -->
-        <label class="label">Password</label>
+        <!-- <label class="label">Password</label> -->
         <div class="control has-icons-left has-icons-right">
-          <input id="password-input" class="input" type="password" placeholder="password">
-          <!-- <input class="input is-success" type="text" placeholder="Text input" value="bulma"> -->
-          <span class="icon is-small is-left">
-            <i class="fas fa-user"></i>
-          </span>
+          <!-- <input id="password-input" class="input" type="password" placeholder="password"> -->
+          <!-- <span class="icon is-small is-left"> -->
+            <!-- <i class="fas fa-user"></i> -->
+          <!-- </span> -->
           <!-- <span class="icon is-small is-right">
             <i class="fas fa-check"></i>
           </span> -->
         </div>
-        <label class="label">Email</label>
+        <!-- <br> -->
+        <!-- <label class="label">Email</label> -->
         <div class="control has-icons-left has-icons-right">
           <input id="email" class="input" type="email" placeholder="Email input">
-          <!-- <input class="input is-danger" type="email" placeholder="Email input" value="hello@"> -->
           <span class="icon is-small is-left">
             <i class="fas fa-envelope"></i>
           </span>
-          <!-- <span class="icon is-small is-right">
-            <i class="fas fa-exclamation-triangle"></i>
-          </span> -->
         </div>
-        <!-- <p class="help is-danger">This email is invalid</p> -->
+        <br>
+
+        <!-- <label class="label">Password</label> -->
+        <p class="control has-icons-left">
+            <input class="input" id="password-input" type="password" placeholder="Password">
+            <span class="icon is-small is-left">
+                <i class="fas fa-lock"></i>
+            </span>
+        </p>
+        
       
         <div class="control" id="terms">
           <label class="checkbox">
@@ -79,18 +111,12 @@
         <div class="control">
           <button id="sign-up" class="button is-link">Sign up</button>
 
-         <p>or <a href="./login.html">log in</a></p> 
+         <p >or <a href="./login.html">log in</a></p> 
         </div>
     </div>
- 
+
 <!-- jQuery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<!-- Index Js -->
-<!-- <script src="/models/index.js"></script> -->
-<!-- User.js -->
-<!-- <script src="/models/user.js"></script> -->
-<!-- API Routes -->
-<!-- <script src="/routes/api-routes.js"></script> -->
 <!-- js -->
 <script src="./assets/js/signup.js"></script>
 </body>
