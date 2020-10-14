@@ -10,62 +10,95 @@ html {
   height: 100% !important;
 }
 
-p {
-  font-size: 18px;
-}
-
-a:hover {
-  color: green;
-}
-
-a:link {
-  text-decoration: none;
-}
-
-li {
-  line-height: 3em;
-}
-
 /************************************/
 /* navbar */
 /************************************/
 .navbar {
-  max-width: 100%;
   background-color: white;
-  padding: 1%;
 }
 
-strong {
-  font-size: 30px;
-}
-
-.navbar a {
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
   color: black;
 }
 
-.navbar-dropdown {
+.navbar-dark .navbar-nav .nav-link, .nav-item.active, #navbarDropdownMenuLink-333 {
+  color: black;
+}
+
+.svg-inline--fa.fa-blog.fa-w-16 {
+  color: #00d1b2;
+}
+
+.svg-inline--fa.fa-w-14 {
+  width: .875em;
+  color: black;
+}
+
+.navbar-nav .dropdown-menu {
+  position: static;
+  float: none;
+}
+
+#user-drop-down-menu {
+  margin-left: -150px;
+  padding-right: 3rem;
+  text-align: inherit;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  /* background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e); */
+  background-image: url("https://cdn4.iconfinder.com/data/icons/mobile-app-navigation-line-style/32/Hamburger_Menu-512.png");
+}
+
+/************************************/
+/*     JUMBOTRON     */
+/************************************/
+.display-4 {
+  font-family: "Oswald", sans-serif;
+  color: rgb(26, 26, 26);
+  font-family: "Ruda", Sans-Serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: cadetblue;
+}
+
+.jumbotron.jumbotron-fluid {
   background-color: white;
-  border-bottom-left-radius: 6px;
-  border-bottom-right-radius: 6px;
-  border-top: 2px solid #dbdbdb;
-  box-shadow: 0 8px 8px rgba(10, 10, 10, 0.1);
-  display: none;
-  font-size: 0.875rem;
-  left: 0;
-  min-width: 100%;
-  position: absolute;
-  top: 100%;
-  z-index: 20;
+  text-align: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.jumbotron {
+  padding: 4rem 2rem;
+  padding-bottom: 0;
+}
+
+.page-link {
+  position: relative;
+  display: block;
+  padding: .5rem 1rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #007bff;
+  background-color: #fff;
+  border: 0px solid #dee2e6;
+  font-size: 20px;
+}
+
+.pagination, .pagination-list {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 32px;
 }
 
 /************************************/
 /*     MAIN CONTENT BEGINS*/
 /************************************/
-
-.container {
-  max-width: 960px;
-  padding-bottom: 3em;
-}
 
 .display-4 {
   font-family: "Oswald", sans-serif;
@@ -81,28 +114,22 @@ strong {
   font-size: 48px;
 }
 
-.subtitle {
-  font-family: "Roboto", Sans-Serif;
-  font-size: 25px;
-  padding-bottom: 0px;
-}
-
-/*              
-
-SIDE CONTENT
-
-*/
-.image {
-  height: 200px;
-  width: 380px;
-  padding: 0 10 10 10;
-}
+/************************************/
+/*          SIDE CONTENT           */
+/************************************/
 
 .card-title {
   font-family: "Roboto", Sans-Serif;
   font-size: 30px;
   padding-top: 20px;
 }
+
+/* .col-md-4 {
+  -ms-flex: 0 0 33.333333%;
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+  margin-top: -1%;
+} */
 
 /************************************/
 /*     MAIN CONTENT ENDS*/
@@ -111,22 +138,20 @@ SIDE CONTENT
 /************************************/
 /*    FOOTER STYLING BEGINS */
 /************************************/
-
-.site-footer {
+footer {
   background-color: rgb(233, 233, 233);
-  padding-top: 20px;
+  display: block;
+  padding: 16px 0px !important;
 }
 
-#footer-dev {
-  padding-left: 3em;
+.py-4 {
+  margin-top: 3%;
+  padding-top: 1rem!important;
+  padding-bottom: 1rem!important;
 }
 
-.small-text {
-  font-size: 12px;
-}
-
-.copyright-text {
-  text-align: center;
+div.col-md-4 {
+  padding: 0px 15px;
 }
 
 /************************************/

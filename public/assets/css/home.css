@@ -10,41 +10,38 @@ html {
     height: 100% !important;    
 }
 
-body {
-    text-align: center;
-}
-
 /************************************/
 /* navbar */
 /************************************/
 .navbar {
-    max-width: 100%;
     background-color: white;
-    padding: 1%;
 }
-
-strong {
-    font-size: 30px;
-    text-emphasis: none;
-}
-
-.navbar a {
+  
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
     color: black;
 }
-
-.navbar-dropdown {
-    background-color: white;
-    border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px;
-    border-top: 2px solid #dbdbdb;
-    box-shadow: 0 8px 8px rgba(10,10,10,.1);
-    display: none;
-    font-size: .875rem;
-    left: 0;
-    min-width: 100%;
-    position: absolute;
-    top: 100%;
-    z-index: 20;
+  
+.navbar-dark .navbar-nav .nav-link, .nav-item.active, #navbarDropdownMenuLink-333 {
+    color: black;
+}
+  
+.svg-inline--fa.fa-blog.fa-w-16 {
+    color: #00d1b2;
+}
+  
+.svg-inline--fa.fa-w-14 {
+    width: .875em;
+    color: black;
+}
+  
+.navbar-nav .dropdown-menu {
+    position: static;
+    float: none;
+}
+  
+.navbar-dark .navbar-toggler-icon {
+    /* background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e); */
+    background-image: url("https://cdn4.iconfinder.com/data/icons/mobile-app-navigation-line-style/32/Hamburger_Menu-512.png");
 }
 
 /************************************/
@@ -52,17 +49,34 @@ strong {
 /************************************/
 .hero.is-primary.is-medium {
     margin-top: 1%;
-    height: 70vh;
-    max-width: 100%;
-    background-image: url(../images/pexels-washarapol-d-binyo-jundang-2731667.jpg);
+    background-image: url(../images/home-weed-pexels-michael-fischer-606506.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
+    width: 100%;
+    background-size: 100% auto;
+    font-size: 100px;
+    letter-spacing: 5px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.hero-body.container {
+    font-family: "Ruda", Sans-Serif;
+    font-size: 48px;
+    color: white;
+    overflow: hidden;
+}
+
+.hero.is-primary .title {
+    color: #fff;
+    font-size: 48px;
 }
 
 .box {
     border-radius: 0%;
+    overflow: hidden;
 }
 
 /************************************/
@@ -73,20 +87,26 @@ strong {
     color: black;
     font-size: 40px;
     padding: 5%;
+    letter-spacing: 5px;
+    font-family: "Ruda", Sans-Serif;
+    font-weight: bold;
+    text-align: center;
 }
 
 .tile.is-ancestor {
     margin-left: 0;
     max-width: 100%;
     text-align: center;
-    padding: 4%;
     padding-bottom: 0%;
 }
 
 .title {
+    font-family: "Ruda", Sans-Serif;
     text-align: center;  
     color: white;
     font-size: 40px;
+    letter-spacing: 5px;
+    /* white-space: nowrap */
 }
 
 #about,
@@ -98,18 +118,17 @@ strong {
     text-align: center;    
     color: white;
     transition: transform .5s ease;
-    border: 6px solid darkblue;
+    overflow: hidden;
+    /* filter: drop-shadow(2px 2px 6px gray); */
 }
 
 .tile.is-parent {
     transition: transform .5s ease;
-    border: 6px solid palevioletred;
-
+    overflow: hidden;
 }
 
 .tile.is-parent:hover {
     transition: transform .5s ease;
-    transform: scale(1.5);
 }
 
 #about small,
@@ -121,10 +140,18 @@ strong {
 
 #about {
     background-image: url(../images/team-natalie-pedigo-unsplash.jpg);
+    overflow: hidden;
 }
 
 #benefits {
     background-image: url(../images/grav-v_U8vO8iFyY-unsplash.jpg);
+    overflow: hidden;
+}
+
+
+#about:hover,
+#benefits:hover {
+    transform: scale(1.5);
 }
 
 .columns.is-variable.is-1-mobile.is-0-tablet.is-3-desktop.is-8-widescreen.is-2-fullhd {
@@ -132,19 +159,50 @@ strong {
     padding-top: 0%;
 }
 
+
+/************************************/
+/* Blog */
+/************************************/
 .card {
     border-radius: 0%;
-    height: 60vh;
+    height: 69vh;
+    text-align: center !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.view.overlay img {
+    width: 100%;
 }
 
 .card-img-top {
-    height: 26vh;
+    height: 30vh;
 }
 
 .card-text {
     padding: 4%;
+    text-align: center !important;
 }
 
-h5 {
+/* h5 {
     padding-bottom: 4%;
+} */
+
+/************************************/
+/*    FOOTER  */
+/************************************/
+footer {
+    max-width: 100%;
 }
+
+footer div.col-md-4 {
+    padding: 0 !important;
+}
+
+.font-weight-bold {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700!important;
+}
+
