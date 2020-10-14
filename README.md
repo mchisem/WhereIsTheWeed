@@ -18,15 +18,19 @@
 
 ## NPM Dependencies
 
-- sequelize
+- bcryptjs
+- bulma
 - express
 - express-session
+- mysql
+- mysql2
 - passport
 - passport-local
+- sequelize
 
 ## Credits
 
-Data provided by [API]()
+Data provided by [Otreeba]()
 
 ## Deployed Project
 
@@ -46,4 +50,3 @@ Source code for this project available [here]()
 ## Questions
 
 Questions or concerns? Contact anyone one of us by our GitHub usernames!
-

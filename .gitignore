@@ -1,4 +1,8 @@
 node_modules
 .DS_Store
 .env
+<<<<<<< HEAD
 .nv
+=======
+dotenv
+>>>>>>> 7ac7a38ac4710d332bad65bb2f191bca70f0efa8
