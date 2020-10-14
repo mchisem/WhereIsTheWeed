@@ -1,3 +1,11 @@
+const ofAgeForm = $("#of-age-form");
+const signUpForm = $("#sign-up-form");
+
+$("#confirmation").on("click", function () {  
+    $(ofAgeForm).addClass("hide");
+    $(signUpForm).removeClass("hide");
+})
+
 $(document).ready(() => {
   // Getting references to our form and input
   // const signUpForm = $("form.signup");

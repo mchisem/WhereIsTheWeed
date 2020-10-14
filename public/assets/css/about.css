@@ -21,6 +21,7 @@ html {
 
 strong {
   font-size: 30px;
+  text-emphasis: none;
 }
 
 .navbar a {
@@ -32,10 +33,11 @@ strong {
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
   border-top: 2px solid #dbdbdb;
-  box-shadow: 0 8px 8px rgba(10, 10, 10, 0.1);
+  box-shadow: 0 8px 8px rgba(10,10,10,.1);
   display: none;
-  font-size: 0.875rem;
-  left: 0;
+  font-size: .875rem;
+  /* left: 0; */
+  left: -70px;
   min-width: 100%;
   position: absolute;
   top: 100%;
@@ -44,6 +46,7 @@ strong {
 
 .container {
   max-width: 960px;
+  max-width: 100%;
 }
 
 .display-4 {
@@ -53,11 +56,20 @@ strong {
   font-size: 48px;
 }
 
-/*        
+/************************************/
+/* Banner Section*/
+/************************************/
+.banner-title {
+  font-size: 100px;
+  letter-spacing: 5px;
+  text-align: center;
+}
 
-    Banner Section
-
-*/
+.display-4 {
+    font-family: "Ruda", Sans-Serif;
+    font-size: 48px;
+    color: white;
+}
 
 .about-banner {
   background-image: url("../images/about-banner-img.jpg");
@@ -69,12 +81,15 @@ strong {
   font-size: 100px;
   letter-spacing: 5px;
 }
-/*        
 
-    About  Section
-
-*/
-
+.m-md-3 {
+  margin: 0rem!important;
+}
+        
+/************************************/
+    /* About  
+    Section */
+/************************************/
 .about-container {
   background-color: white;
 }
@@ -148,6 +163,12 @@ sizing devices
   bottom: 0;
   left: 5%;
   background-color: #e5e5e5;
+}
+
+.columns {
+  margin-left: 0rem;
+  margin-right: -.75rem;
+  margin-top: -.75rem;
 }
 
 /*

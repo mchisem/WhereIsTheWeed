@@ -3,6 +3,9 @@ CREATE DATABASE weedUser_db;
 -- Drop weedUser database
 USE weedUser_db;
 
+
+-- Abraham's Code
+
 -- Drop User Info table
 DROP TABLE userInfo;
 
