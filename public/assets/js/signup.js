@@ -48,7 +48,7 @@ $(document).ready(() => {
         password: password,
         name: name,
         userName: userName,
-        age: age
+        age: true
       })
         .then(() => {
           window.location.replace("/home");
