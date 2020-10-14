@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "development": {
       "username": "root",
       "password": "password",
@@ -17,5 +18,24 @@
       "use_env_variable": "JAWSDB_URL",
       "dialect": "mysql"
     }
+=======
+  "development": {
+    "username": "root",
+    "password": "tayjo0926",
+    "database": "weedUser_db",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "tayjo0926",
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "use_env_variable": "JAWSDB_URL",
+    "dialect": "mysql"
+>>>>>>> ca745e840f222e2aba244f130e1e57aa76c85b34
   }
-  
+}
