@@ -9,7 +9,7 @@ html {
     background-size: cover;
     background-repeat: no-repeat !important;
     background-position: top !important;
-    height: 100% !important;   
+    height: 100vh;   
 }
 
 body {

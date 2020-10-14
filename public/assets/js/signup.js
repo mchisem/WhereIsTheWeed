@@ -51,7 +51,7 @@ $(document).ready(() => {
         age: age
       })
         .then(() => {
-          window.location.replace("/members");
+          window.location.replace("/home");
           // If there's an error, handle it by throwing up a bootstrap alert
         })
         .catch(handleLoginErr);
