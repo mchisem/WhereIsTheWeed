@@ -10,6 +10,11 @@ html {
   height: 100% !important;
 }
 
+a:link {
+  color: black !important;
+  text-decoration: none;
+}
+
 /************************************/
 /* navbar */
 /************************************/
@@ -17,11 +22,16 @@ html {
   background-color: white;
 }
 
-.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show > .nav-link {
   color: black;
 }
 
-.navbar-dark .navbar-nav .nav-link, .nav-item.active, #navbarDropdownMenuLink-333 {
+.navbar-dark .navbar-nav .nav-link,
+.nav-item.active,
+#navbarDropdownMenuLink-333 {
   color: black;
 }
 
@@ -30,7 +40,7 @@ html {
 }
 
 .svg-inline--fa.fa-w-14 {
-  width: .875em;
+  width: 0.875em;
   color: black;
 }
 
@@ -79,7 +89,7 @@ html {
 .page-link {
   position: relative;
   display: block;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   margin-left: -1px;
   line-height: 1.25;
   color: #007bff;
@@ -88,7 +98,8 @@ html {
   font-size: 20px;
 }
 
-.pagination, .pagination-list {
+.pagination,
+.pagination-list {
   align-items: center;
   display: flex;
   justify-content: center;
@@ -146,8 +157,8 @@ footer {
 
 .py-4 {
   margin-top: 3%;
-  padding-top: 1rem!important;
-  padding-bottom: 1rem!important;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
 }
 
 div.col-md-4 {
