@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home</title>
- 
+    <title>Home</title>
+    <link rel="icon" type="favicon.ico" href="./assets/images/favicon.ico">
+
     <!-- Bulma Stylesheet -->
     <link rel="stylesheet" 
     href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
 
+    <!-- MDB Bootstrap Stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
     <!-- Font Awesome Stylesheet-->
     <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
-
-    <!-- MDB Bootstrap Stylesheet -->
-    <!-- <link rel="stylesheet" 
-    href="node_modules/mdbootstrap/css/bootstrap.min.css"> -->
 
     <!-- Stylesheet -->
     <link rel="Stylesheet" type="text/css" 
@@ -23,76 +23,54 @@
 <body>
     <!------------------------------->
     <!-- Navbar -->
-    <!------------------------------->
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-          <a class="navbar-item" href="./home.html">
-            <strong>Where's the Weed?</strong>
+    <!------------------------------->    
+    <nav class="mb-1 navbar navbar-expand-lg navbar-dark default-color">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
+        aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="./home.html"><strong>Where's the Weed?</strong>
+            <span class="sr-only">(current)</span>
           </a>
-      
-          <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Benefits
           </a>
-        </div>
-      
-        <div id="navbarBasicExample" class="navbar-menu">
-          <div class="navbar-start">      
-            <!-- <a class="navbar-item">
-              Documentation
-            </a> -->
+          <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+            <a class="dropdown-item" href="#cbd">CBD</a>
+            <a class="dropdown-item" href="./benefits.html#sativa">Sativa</a>
+            <a class="dropdown-item" href="./benefits.html#indica">Indica</a>
+            <a class="dropdown-item" href="./benefits.html#hybrid">Hybrid</a>
           </div>
-      
-          <div class="navbar-end">
-            <div class="navbar-item">    
-                <i class="fa fa-map-marker-alt"></i>
-                         
-                <div class="navbar-item has-dropdown is-hoverable">
-                    <a class="navbar-link">
-                        <p> Current Location: <span>Los Angeles, CA</span></p>
-                    </a>
-      
-                    <div class="navbar-dropdown">
-                        <a class="navbar-item">
-                            Enter a new location
-                        </a>
-                        <hr class="navbar-divider">
-                        <a class="navbar-item">
-                            Report an issue
-                        </a>
-                    </div>
-                </div>
-
-              <div class="buttons">
-                <a href="#blog" class="button is-primary">
-                  <i class="fa fa-blog"></i>
-                </a>
-
-                <div class="navbar-item has-dropdown is-hoverable">
-                    <a class="button is-light">
-                        <i class="fa fa-user-circle"></i>
-                    </a>
-                    <div class="navbar-dropdown">
-                        <a class="navbar-item">
-                            Account
-                        </a>
-                        <hr class="navbar-divider">
-                        <a class="navbar-item">
-                            Sign Out
-                        </a>
-                    </div>
-                </div>
-
-                <!-- <a class="button is-light">
-                    <i class="fa fa-user-circle"></i>
-                </a> -->
-              </div>
-
-            </div>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto nav-flex-icons">
+        <li class="nav-item">
+          <a class="nav-link waves-effect waves-light">
+            <i class="fa fa-blog"></i>
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-user"></i>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right dropdown-default"
+            aria-labelledby="navbarDropdownMenuLink-333">
+            <a class="dropdown-item" href="#">Account</a>
+            <a class="dropdown-item" href="#">Log out</a>
           </div>
-        </div>
-      </nav>
+        </li>
+      </ul>
+    </div>
+    </nav>
 
     <!------------------------------->
     <!-- Cover -->
@@ -101,7 +79,7 @@
     <div class="hero-body">
         <div class="container">
         <h1 class="title">
-            Where's the Weed?
+            Welcome!
         </h1>
         <h2 class="subtitle">
             The app that's there for you when you
@@ -141,7 +119,7 @@
     <!------------------------------->
     <!-- Blog Section -->
     <!------------------------------->
-    <h1 id="blog">Blog</h1>
+    <h1 id="blog">Check out some blog posts!</h1>
 
     <!-- Row One -->
     <div class="columns is-variable is-1-mobile is-0-tablet is-3-desktop is-8-widescreen is-2-fullhd">
@@ -190,7 +168,7 @@
             <!-- Card image -->
                 <div class="view overlay">
                     <img class="card-img-top"
-                    src="https://theweedblog-com.exactdn.com/wp-content/uploads/claire-anderson-Vq__yk6faOI-unsplash-scaled.jpg?strip=all&lossy=1&resize=1440%2C600&ssl=1" alt="Card image cap">
+                    src="./assets/images/girl-smoking-pexels-lamar-belina-4310999.jpg" style="width: 100% !important; height: 30vh;" alt="Card image cap">
                     <a>
                         <div class="mask rgba-white-slight"></div>
                     </a>
@@ -275,7 +253,7 @@
                 <!-- Card image -->
                     <div class="view overlay">
                         <img class="card-img-top"
-                        src="https://theweedblog-com.exactdn.com/wp-content/uploads/IMG_0391.jpeg?strip=all&lossy=1&resize=1440%2C600&ssl=1" alt="Card image cap">
+                        src="https://images.pexels.com/photos/2732666/pexels-photo-2732666.jpeg?cs=srgb&dl=pexels-dmytro-2732666.jpg&fm=jpg" style="width: 100%;" alt="Card image cap">
                         <a>
                             <div class="mask rgba-white-slight"></div>
                         </a>
@@ -314,7 +292,7 @@
                 <!-- Card image -->
                     <div class="view overlay">
                         <img class="card-img-top"
-                        src="https://theweedblog-com.exactdn.com/wp-content/uploads/cbd-4474903_1920.jpg?strip=all&lossy=1&resize=1440%2C600&ssl=1" alt="Card image cap">
+                        src="https://images.pexels.com/photos/3577295/pexels-photo-3577295.jpeg?cs=srgb&dl=pexels-tree-of-life-seeds-3577295.jpg&fm=jpg" style="width: 100%;" alt="Card image cap">
                         <a>
                             <div class="mask rgba-white-slight"></div>
                         </a>
@@ -388,7 +366,6 @@
         </div>
     </div>
     
-
 <!-- JS, Popper.js, and jQuery -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

@@ -44,8 +44,8 @@ Source code for this project available [here]()
 
 - [Maya Chisem](https://github.com/mchisem)
 - [Taylor Johnson](https://github.com/tayjohnson)
-- [Victoria](https://github.com/)
-- [Abraham](https://github.com/)
+- [Victoria Blackburn](https://github.com/)
+- [Abraham Carcentes](https://github.com/acarcentes)
 
 ## Questions
 

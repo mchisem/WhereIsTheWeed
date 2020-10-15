@@ -9,7 +9,7 @@ html {
     background-size: cover;
     background-repeat: no-repeat !important;
     background-position: top !important;
-    height: 100% !important;   
+    height: 100vh;   
 }
 
 body {
@@ -20,12 +20,24 @@ body {
     justify-content: center
 }
 
-.field {
+/***************************/
+/***************************/
+.hide {
+    display: none;
+}
+
+/***************************/
+/*           FORMS */
+/***************************/
+#of-age-form,
+#sign-up-form,
+#log-in-form {
     background-color: black;
     width: 400px;
     padding: 2%;
     margin: 3%;
-    margin-top: 15%;
+    margin-top: 25%;
+    transform: translate(0, -30%);
 }
 
 h1,
@@ -48,6 +60,13 @@ h1,
     padding-top: 1%;
     color: white;
 }
+
+#terms span:hover {
+    opacity: 1;
+    color: white;
+    cursor: auto;
+}
+
 
 .button.is-link {
     padding: 2%;

@@ -3,7 +3,6 @@
 // var apiKey = "60ca5c405cmsha8924cbbd9a5b7ep1ee964jsn614923e7e58f";
 // var queryURL = "https://brianiswu-otreeba-open-cannabis-v1.p.rapidapi.com/"+name+"brands";
 
-
 $(document).ready(function(){
 	var name = ""
 
@@ -18,6 +17,9 @@ $(document).ready(function(){
 		}
 	}
 
+const oneTitle = $("#one-title");
+const twoTitle = $("#two-title");
+const threeTitle = $("#three-title");
 
 function runThePage() {
 	settings.url = "https://brianiswu-otreeba-open-cannabis-v1.p.rapidapi.com/" + name + "brands";
@@ -28,26 +30,35 @@ function runThePage() {
         console.log("connected to API")
         
         // Image of Brand
-        var resImg = response.data[0].image;
-        // console.log(resImg)
+		$("#one-img").attr("src", response.data[0].image);
+		$("#two-img").attr("src", response.data[7].image);
+		$("#three-img").attr("src", response.data[9].image);
 
-        $(".card-img-top").attr("src", response.data[0].image);
+		// Name of Brand 
+		$("#one-title").text(response.data[0].name);
+		$("#two-title").text(response.data[7].name);
+		$("#three-title").text(response.data[9].name);
 
-        // Name of Brand 
-        for (var index = 0; index < response.data.length; index++) {
-            var cardName = document.getElementsByClassName("card-title");
-            var resName = response.data[index].name;
-            // console.log(name)
-            $(cardName).text(resName);
+		// Brand Update 
+		// var resUpdate = response.data[0].updatedAt
+		// console.log(resUpdate)
+		$("#one-date").text(response.data[0].updatedAt);
+		$("#two-date").text(response.data[7].updatedAt);
+		$("#three-date").text(response.data[9].updatedAt);
 
-        // Brand URL
-        var resBran = response.data[0].url
-        console.log(resBran)
+		// Brand URL
+		$("#one-url").attr("href", response.data[0].url)
+		$("#two-url").attr("href", response.data[7].url)
+		$("#three-url").attr("href", response.data[9].url)
 
-        // Brand Update 
-        var resUpdate = response.data[0].updatedAt
-        console.log(resUpdate)
-    }
+		
+		// name of brand for loop
+    //     for (var index = 0; index < response.data.length; index++) {
+    //         var cardName = document.getElementsByClassName("card-title");
+    //         var resName = response.data[index].name;
+    //         $(cardName).text(resName);
+
+    // }
     
 	});
 	
@@ -55,20 +66,4 @@ function runThePage() {
 
 runThePage();
 
-// Appending Data error messages about name//
-	// function product(response) {
-	// 	for (var index = 0; index < response.length; index++) {
-	// 		var userSearch = response.data[index].flowers.name
-	// 		userSearch = $("<div>").addClass("displayUserSearch")
-	// 		infoDiv.append(userSearch)
-	// 		$("#info").append(infoDiv)
-	// 	}
-
-	// }
-
-// product();
-
-// $.ajax(settings).done(function (response) {
-// 	console.log(response, "connected to API");
-// })
 });
