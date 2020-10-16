@@ -2,19 +2,19 @@
 
 ## Table of Contents
 
-* [Description](#description) 
-* [Installation](#installation) 
-* [Credits](#credits)
-* [Deployed](#deployed)
-* [Source](#source)
-* [Contributors](#contributors)
-* [Questions](#questions)
+- [Description](#description)
+- [Installation](#installation)
+- [Credits](#credits)
+- [Deployed](#deployed)
+- [Source](#source)
+- [Contributors](#contributors)
+- [Questions](#questions)
 
 ## Description
 
 ## Installation
 
-```npm install```
+`npm install`
 
 ## NPM Dependencies
 
@@ -34,7 +34,7 @@ Data provided by [Otreeba]()
 
 ## Deployed Project
 
-Deployed version of this project available [here]()
+Deployed version of this project available [here](https://shielded-wave-79654.herokuapp.com/signup.html)
 
 ## Source
 
