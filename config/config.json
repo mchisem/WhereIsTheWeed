@@ -1,14 +1,22 @@
 {
   "development": {
     "username": "root",
+<<<<<<< HEAD
     "password": "password",
+=======
+    "password": "",
+>>>>>>> 2909744cfd5c2567453e7492beef7c70319ee340
     "database": "weedUser_db",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "test": {
     "username": "root",
+<<<<<<< HEAD
     "password": "password",
+=======
+    "password": "",
+>>>>>>> 2909744cfd5c2567453e7492beef7c70319ee340
     "database": "database_test",
     "host": "127.0.0.1",
     "dialect": "mysql"
