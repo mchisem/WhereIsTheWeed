@@ -4,51 +4,42 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-
 html {
   background-color: white;
   height: 100% !important;
 }
-
 a:link {
   color: black !important;
   text-decoration: none;
 }
-
 /************************************/
 /* navbar */
 /************************************/
 .navbar {
   background-color: white;
 }
-
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .show > .nav-link {
   color: black;
 }
-
 .navbar-dark .navbar-nav .nav-link,
 .nav-item.active,
 #navbarDropdownMenuLink-333 {
   color: black;
 }
-
 .svg-inline--fa.fa-blog.fa-w-16 {
-  color: #00d1b2;
+  color: #00D1B2;
 }
-
 .svg-inline--fa.fa-w-14 {
   width: 0.875em;
   color: black;
 }
-
 .navbar-nav .dropdown-menu {
   position: static;
   float: none;
 }
-
 #user-drop-down-menu {
   margin-left: -150px;
   padding-right: 3rem;
@@ -56,12 +47,10 @@ a:link {
   white-space: nowrap;
   width: 100%;
 }
-
 .navbar-dark .navbar-toggler-icon {
   /* background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e); */
   background-image: url("https://cdn4.iconfinder.com/data/icons/mobile-app-navigation-line-style/32/Hamburger_Menu-512.png");
 }
-
 /************************************/
 /*     JUMBOTRON     */
 /************************************/
@@ -73,31 +62,27 @@ a:link {
   font-weight: bold;
   color: cadetblue;
 }
-
 .jumbotron.jumbotron-fluid {
   background-color: white;
   text-align: center;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
 }
-
 .jumbotron {
   padding: 4rem 2rem;
   padding-bottom: 0;
 }
-
 .page-link {
   position: relative;
   display: block;
   padding: 0.5rem 1rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #007bff;
+  color: #007BFF;
   background-color: #fff;
-  border: 0px solid #dee2e6;
+  border: 0px solid #DEE2E6;
   font-size: 20px;
 }
-
 .pagination,
 .pagination-list {
   align-items: center;
@@ -106,46 +91,38 @@ a:link {
   text-align: center;
   margin-bottom: 32px;
 }
-
 /************************************/
 /*     MAIN CONTENT BEGINS*/
 /************************************/
-
 .display-4 {
   font-family: "Oswald", sans-serif;
   color: rgb(26, 26, 26);
   font-family: "Ruda", Sans-Serif;
   font-size: 48px;
 }
-
 .benefits-title {
   font-family: "Oswald", sans-serif;
   color: rgb(26, 26, 26);
   font-family: "Ruda", Sans-Serif;
   font-size: 48px;
 }
-
 /************************************/
 /*          SIDE CONTENT           */
 /************************************/
-
 .card-title {
   font-family: "Roboto", Sans-Serif;
   font-size: 30px;
   padding-top: 20px;
 }
-
 /* .col-md-4 {
   -ms-flex: 0 0 33.333333%;
   flex: 0 0 33.333333%;
   max-width: 33.333333%;
   margin-top: -1%;
 } */
-
 /************************************/
 /*     MAIN CONTENT ENDS*/
 /************************************/
-
 /************************************/
 /*    FOOTER STYLING BEGINS */
 /************************************/
@@ -154,21 +131,17 @@ footer {
   display: block;
   padding: 16px 0px !important;
 }
-
 .py-4 {
   margin-top: 3%;
   padding-top: 1rem !important;
   padding-bottom: 1rem !important;
 }
-
 div.col-md-4 {
   padding: 0px 15px;
 }
-
 /************************************/
 /*    FOOTER STYLING ENDS */
 /************************************/
-
 /************************************/
 /*    Transition Animation  */
 /************************************/
@@ -180,7 +153,6 @@ div.col-md-4 {
     transform: translateX(0);
   }
 }
-
 .animate-container {
   animation: 1s ease-out 0s 1 slideInFromLeft;
 }
