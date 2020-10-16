@@ -33,9 +33,9 @@ strong {
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
   border-top: 2px solid #dbdbdb;
-  box-shadow: 0 8px 8px rgba(10,10,10,.1);
+  box-shadow: 0 8px 8px rgba(10, 10, 10, 0.1);
   display: none;
-  font-size: .875rem;
+  font-size: 0.875rem;
   /* left: 0; */
   left: -70px;
   min-width: 100%;
@@ -66,9 +66,9 @@ strong {
 }
 
 .display-4 {
-    font-family: "Ruda", Sans-Serif;
-    font-size: 48px;
-    color: white;
+  font-family: "Ruda", Sans-Serif;
+  font-size: 48px;
+  color: white;
 }
 
 .about-banner {
@@ -83,11 +83,11 @@ strong {
 }
 
 .m-md-3 {
-  margin: 0rem!important;
+  margin: 0rem !important;
 }
-        
+
 /************************************/
-    /* About  
+/* About  
     Section */
 /************************************/
 .about-container {
@@ -167,13 +167,19 @@ sizing devices
 
 .columns {
   margin-left: 0rem;
-  margin-right: -.75rem;
-  margin-top: -.75rem;
+  margin-right: -0.75rem;
+  margin-top: -0.75rem;
 }
 
 /*
-   * Extra utilities
-   */
+   
+
+
+* Extra utilities
+
+
+
+ */
 
 .flex-equal > * {
   -ms-flex: 1;
@@ -188,4 +194,27 @@ sizing devices
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+/*
+   
+
+
+* Load in animation
+
+
+
+ */
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-container {
+  animation: 1s ease-out 0s 1 slideInFromRight;
 }
