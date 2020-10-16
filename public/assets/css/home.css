@@ -55,7 +55,7 @@ html {
 /************************************/
 .hero.is-primary.is-medium {
   margin-top: 1%;
-  background-image: url(../images/home-weed-pexels-michael-fischer-606506.jpg);
+  background-image: url(../images/pexels-washarapol-d-binyo-jundang-2731667.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -169,7 +169,7 @@ html {
 /************************************/
 .card {
   border-radius: 0%;
-  height: 69vh;
+  height: 80vh;
   text-align: center !important;
   justify-content: center;
   align-items: center;
