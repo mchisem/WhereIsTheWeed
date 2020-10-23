@@ -34,7 +34,7 @@ Data provided by [Otreeba]()
 
 ## Deployed Project
 
-Deployed version of this project available [here](https://shielded-wave-79654.herokuapp.com/signup.html)
+Deployed version of this project available [here](https://gentle-chamber-24039.herokuapp.com/)
 
 ## Source
 
