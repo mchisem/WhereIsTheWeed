@@ -11,6 +11,7 @@
 - [Questions](#questions)
 
 ## Description
+![](./assets/images/Where-Is-The-Weed.gif)
 
 ## Installation
 
